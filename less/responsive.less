@@ -1,0 +1,101 @@
+@import './variables.less';
+@import './mixin.less';
+@media only screen and (min-width:1024px){
+    .header__menu-bars {
+        display: none !important;
+    }
+    // .wrapper {
+    //     max-width: 1440px;
+    //     margin: 0 auto;
+    // }
+    .page {
+        .page__list {
+            li {
+                width: 116px;
+                text-align: center;
+                p {
+                    font-size:@font-size-pc;
+                }
+            }
+        }
+    }
+    .product {
+        .product__slider {
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+        .product__btn {
+           a {
+                font-size:@font-size-pc;
+           }
+        }
+    }
+    .event {
+        .event__slider  {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .service {
+        .service__slider  {
+            width: 80%;
+            margin: auto;
+        }
+        .line {
+            display:none;
+        }
+    }
+    .footer {
+        .footer__login {
+            ul:nth-child(1) {
+                display: none;
+            }
+            ul:nth-child(2) {
+                display: none;
+            }
+            .footer__login-pc {
+                display: block;
+                ul{
+                    .flex;
+                    .justify-content(space-between);
+                    .align-items(center);
+                    li:first-child {
+                        img {
+                            width: 130%;
+                        }
+                    }
+                    li:nth-child(3) {
+                        from {
+                            margin: 0;
+                            gap:20px;
+                            input {
+                                width: 250px;
+                            }
+                        }
+                    }
+                    li:nth-child(2) {
+                        h6 {
+                            text-transform: uppercase;
+                            color:@primary-color;
+                            font-size:18px;
+                        }
+                    }
+                    span {
+                        height: 60px;
+                        width: 1px;
+                        margin: 0 10px;
+                        display: inline-block;
+                        background:@coler-gray2;
+                    }
+                }
+            }
+           
+        }
+    }
+
+}

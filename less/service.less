@@ -1,0 +1,44 @@
+@import "./mixin.less";
+@import "./variables.less";
+.service {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+    h3 {
+        .line-bottom
+    }
+}
+.service-slide {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.service__list {
+    margin-bottom: 30px;
+    .service__list-item {
+        width: 60px;
+        height: 60px;
+        .flex;
+        .justify-content(center);
+        .flex-decoration(column);
+        .align-items(center);
+        margin: auto;
+        border-radius: 50%;
+        background: #ffffff;
+        position: relative;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        img {
+            width: initial !important;
+        }
+    }
+    h6 {
+        margin-top:10px;
+    }
+
+}
+.service__btn {
+    a {
+        .btn-primary
+    }
+
+}
+
