@@ -68,3 +68,6 @@ a {
 a:hover {
   text-decoration: none;
 }
+p {
+  font-weight: 500;
+}

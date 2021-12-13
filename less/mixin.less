@@ -36,22 +36,21 @@
         color: @hover-color;
     }
 }
-.input {
+.input(@color-border) {
     width: 100%;
     height:  40px;
     padding-left: 10px;
     font-size: 12px;
     line-height: 20px;
-    border: 0;
-    border: 1px solid @line-input;
+    border: 1px solid @color-border;
     border-radius: 20px;
     background:@color-white;
 }
 .input-pc {
-    .input;
+    .input(@coler-gray2);
 }
 .input-tablet-mobile {
-    .input;
+    .input(@primary-color);
 }
 .circle(@width,@top,@right) {
     position: absolute;
@@ -163,4 +162,11 @@
 }
 .contact__email{
     .contact(130px)
+}
+.language(@color) {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: @color;
 }

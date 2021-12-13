@@ -1,13 +1,73 @@
 @import './variables.less';
 @import './mixin.less';
 @media only screen and (min-width:1024px){
-    .header__menu-bars {
-        display: none !important;
+    
+    .wrapper {
+        header {
+            display: none;
+        }
+        .header__top {
+            display: none;
+        }
+        .header__menu-bars {
+            display: none ;
+        }
+        .header__menu-pc {
+            display: block;
+            .flex;
+            .justify-content(center);
+            .align-items(center);
+            background-color: @primary-color;
+            height: 65px;
+            .header__menu-logo {
+                transform: translate(12px, 8.5px);
+            }
+        }
+        .menu-main {
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+            transform: translateY(4px);
+            gap: 16px;
+            padding: 20px 20px 20px 20px;
+            a {
+                text-align: center;
+                span {
+                    display: block;
+                    font-size:12px;
+                    color: @color-body;
+                    font-weight: @font-weight__heavier;
+                    
+                }
+            }
+            a:nth-child(1),a:nth-child(4) {
+                span {
+                    margin-top: 6px;
+                }
+            }
+            input {
+                .input-pc;
+                width: 240px;
+            }
+            .language__vi{
+                .language(@primary-color)
+            }
+            .language__en{
+                .language(@color-body)
+            }
+            .line-language {
+                height: 15px;
+                width: 1px;
+                display: inline-block;
+                background: #9a9a9c;
+                // margin: 0 10px;
+                // transform: translateY(22%);
+            }
+        }
     }
-    // .wrapper {
-    //     max-width: 1440px;
-    //     margin: 0 auto;
-    // }
+    
     .page {
         .page__list {
             li {

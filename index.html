@@ -40,7 +40,9 @@
 
         </div>
         <header class="header">
-            <img srcset="./assets/images/logo.png 2x">
+            <a href="">
+                <img srcset="./assets/images/logo.png 2x">
+            </a>
                 <from class="header__from">
                     <input type="text" placeholder="Địa chỉ nhận hàng"/>
                     <a href=""><img srcset="./assets/images/icon.png 2x"></a>
@@ -57,23 +59,51 @@
             </ul>
             
         </header>
+        <div class="header__menu-pc">
+            <a class="header__menu-logo" href="">
+                <img srcset="./assets/images/logo-desk.png 2x"></a>
+            </a>
+            <div class="menu-main">
+                <a href="#">
+                    <img srcset="./assets/images/menu-icon-1.png 2x" alt="">
+                    <span>Sản phẩm</span>
+                </a>
+                <a href="#">
+                    <img srcset="./assets/images/icon-food.png 2x" alt="">
+                    <span>Ăn uống</span>
+                </a>
+                <a href="#">
+                    <img srcset="./assets/images/icon-sell-off.png 2x" alt="">
+                    <span>Ưu đãi</span>
+                </a>
+                <a href="#">
+                    <img srcset="./assets/images/menu-icon-3.png 2x" alt="">
+                    <span>Tìm cửa hàng</span>
+                </a>
+                <a href="#">
+                    <img srcset="./assets/images/icon-job.png 2x" alt="">
+                    <span>Việc làm</span>
+                </a>
+                <input type="search" placeholder="Địa chỉ nhận hàng" />
+                <a href="#"><img srcset="./assets/images/icon-adr.png 2x" alt=""></a>
+                <a href="#">
+                    <img srcset="./assets/images/icon-search-desk.png 2x" alt="" class="header__menu-search">
+                </a>
+                <a href="">
+                    <img srcset="./assets/images/user-desk-menu.png 2x" alt="">
+                </a>
+                <a href="#">
+                    <img srcset="./assets/images/cart-desk.png 2x" alt="" class="header__menu-cart">
+                </a>
+
+                <a class="language__vi">VI</a>
+                <span class="line-language" ></span>
+                <a class="language__en">EN</a>
+            </div>
+        </div>
         <div class="header__bottom">
 
         </div>
-        <!-- <section class="banner swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide banner__list">
-                    <img srcset="./assets/images/Rectangle5.png 2x">
-                </div>
-                <div class="swiper-slide banner__list">
-                    <img srcset="./assets/images/Rectangle5.png 2x">
-                </div>
-                <div class="swiper-slide banner__list">
-                    <img srcset="./assets/images/Rectangle5.png 2x">
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </section> -->
         <section class="banner">
             <img srcset="./assets/images/Rectangle5.png 2x">
             <span>
@@ -83,37 +113,53 @@
         <section class="page">
             <ul class="page__list">
                 <li>
-                    <img srcset="./assets/images/Frame63.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/Frame63.png 2x">
+                    </a>
                     <p>Hàng khuyến mãi</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/2.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/2.png 2x">
+                    </a>
                     <p>Nước giải khát</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/3.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/3.png 2x">
+                    </a>
                     <p>Snack & bánh kẹo</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/4.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/4.png 2x">
+                    </a>
                     <p>Sữa & các sp
                         từ sữa
                     </p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/5.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/5.png 2x">
+                    </a>
                     <p>Thực phẩm khô</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/6.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/6.png 2x">
+                    </a>
                     <p>Sức khỏe & làm đẹp</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/1.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/1.png 2x">
+                    </a>
                     <p>Đồ dùng gia đình</p>
                 </li>
                 <li>
-                    <img srcset="./assets/images/7.png 2x">
+                    <a href="">
+                        <img srcset="./assets/images/7.png 2x">
+                    </a>
                     <p>Tham gia CK Club</p>
                 </li>
                 
@@ -124,72 +170,87 @@
                 Sản phẩm mới
             </h3>
             <div class="line"></div>
-            <div class="swiper product__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide ">
-                        <img srcset="./assets/images/image1.png 2x">
-                        <div class="product__list-number">
-                            <h6>Sandwich</h6>
-                            <p>23.000Đ</p>
-                        </div>
-                        <span class="product__list-new">
-                            mới
-                        </span>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image2.png 2x">
+            <section class="product-new" >
+                <div class="swiper product__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <a href="">
+                                <img srcset="./assets/images/image1.png 2x">
+                            </a>
                             <div class="product__list-number">
-                                <h6>Mỳ trộn xúc xinh trứng chiên</h6>
+                                <h6>Sandwich</h6>
+                                <p>23.000Đ</p>
+                            </div>
+                            <span class="product__list-new">
+                                mới
+                            </span>
+                        </div>
+                        <div class="swiper-slide">
+                                <a href="">
+                                    <img class="content-product_img" srcset="./assets/images/image2.png 2x">
+                                </a>
+                                <div class="product__list-number">
+                                    <h6>Mỳ trộn xúc xinh trứng chiên</h6>
+                                    <p>Pre-order</p>
+                                </div>
+                                <span class="product__list-order">
+                                    Pre-order
+                                </span>
+                        </div>
+                        <div class="swiper-slide ">
+                                <a href="">
+                                    <img class="content-product_img" srcset="./assets/images/image3.png 2x">
+                                </a>
+                                <div class="product__list-number">
+                                    <h6>Dimsum</h6>
+                                    <p>23.000Đ</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img class="content-product_img" srcset="./assets/images/image4.png 2x">
+                            </a>
+                            <div class="product__list-number">
+                                <h6>Xôi lá chuối</h6>
+                                <p>23.000Đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper product__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <a href="">
+                                <img srcset="./assets/images/9.jpg 2x">
+                            </a>
+                            <div class="product__list-number">
+                                <h6>Bia Heniken Silver</h6>
+                                <p>23.000Đ</p>
+                            </div>
+                            <span class="product__list-warning">
+                                18+
+                            </span>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <img  srcset="./assets/images/10.png 2x">
+                            </a>
+                            <div class="product__list-number">
+                                <h6>Sữa tươi cà phên</h6>
                                 <p>Pre-order</p>
                             </div>
-                            <span class="product__list-order">
-                                Pre-order
-                            </span>
-                    </div>
-                    <div class="swiper-slide ">
-                        <img class="content-product_img" srcset="./assets/images/image3.png 2x">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img  srcset="./assets/images/9.jpg 2x">
                             <div class="product__list-number">
                                 <h6>Dimsum</h6>
                                 <p>23.000Đ</p>
                             </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image4.png 2x">
-                        <div class="product__list-number">
-                            <h6>Xôi lá chuối</h6>
-                            <p>23.000Đ</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper product__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide ">
-                        <img srcset="./assets/images/9.jpg 2x">
-                        <div class="product__list-number">
-                            <h6>Bia Heniken Silver</h6>
-                            <p>23.000Đ</p>
-                        </div>
-                        <span class="product__list-warning">
-                            18+
-                        </span>
-                    </div>
-                    <div class="swiper-slide">
-                        <img  srcset="./assets/images/10.png 2x">
-                        <div class="product__list-number">
-                            <h6>Sữa tươi cà phên</h6>
-                            <p>Pre-order</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide ">
-                        <img  srcset="./assets/images/9.jpg 2x">
-                        <div class="product__list-number">
-                            <h6>Dimsum</h6>
-                            <p>23.000Đ</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
+           
             <div class="product__btn">
                 <a href="">
                     Xem thêm sản phẩm
@@ -201,71 +262,74 @@
                 Sản phẩm bán chạy
             </h3>
             <div class="line"></div>
-            <div class="swiper product__slider" >
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img srcset="./assets/images/image1.png 2x">
-                        <div class="product__list-number">
-                            <h6>Sandwich</h6>
-                            <p>23.000Đ</p>
+            <section class="product-hot">
+                <div class="swiper product__slider" >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img srcset="./assets/images/image1.png 2x">
+                            <div class="product__list-number">
+                                <h6>Sandwich</h6>
+                                <p>23.000Đ</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="content-product_img" srcset="./assets/images/image2.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Mỳ trộn xúc xinh trứng chiên</h6>
+                                    <p>Pre-order</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="content-product_img" srcset="./assets/images/image3.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Dimsum</h6>
+                                    <p>23.000Đ</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="content-product_img" srcset="./assets/images/image4.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Xôi lá chuối</h6>
+                                    <p>23.000Đ</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="content-product_img" srcset="./assets/images/image2.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Mỳ trộn xúc xinh trứng chiên</h6>
+                                    <p>23.000Đ</p>
+                                </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image2.png 2x">
-                            <div class="product__list-number">
-                                <h6>Mỳ trộn xúc xinh trứng chiên</h6>
-                                <p>Pre-order</p>
-                            </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image3.png 2x">
-                            <div class="product__list-number">
-                                <h6>Dimsum</h6>
-                                <p>23.000Đ</p>
-                            </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image4.png 2x">
-                            <div class="product__list-number">
-                                <h6>Xôi lá chuối</h6>
-                                <p>23.000Đ</p>
-                            </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="content-product_img" srcset="./assets/images/image2.png 2x">
-                            <div class="product__list-number">
-                                <h6>Mỳ trộn xúc xinh trứng chiên</h6>
-                                <p>23.000Đ</p>
-                            </div>
-                    </div>
                 </div>
-            </div>
-            <div class="swiper product__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img srcset="./assets/images/9.jpg 2x">
-                        <div class="product__list-number">
-                            <h6>Bia Heniken Silver</h6>
-                            <p>23.000Đ</p>
+                <div class="swiper product__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img srcset="./assets/images/9.jpg 2x">
+                            <div class="product__list-number">
+                                <h6>Bia Heniken Silver</h6>
+                                <p>23.000Đ</p>
+                            </div>
+                           
                         </div>
-                       
-                    </div>
-                    <div class="swiper-slide">
-                        <img  srcset="./assets/images/10.png 2x">
-                            <div class="product__list-number">
-                                <h6>Sữa tươi cà phên</h6>
-                                <p>Pre-order</p>
-                            </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img  srcset="./assets/images/11.png 2x">
-                            <div class="product__list-number">
-                                <h6>Dimsum</h6>
-                                <p>23.000Đ</p>
-                            </div>
+                        <div class="swiper-slide">
+                            <img  srcset="./assets/images/10.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Sữa tươi cà phên</h6>
+                                    <p>Pre-order</p>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img  srcset="./assets/images/11.png 2x">
+                                <div class="product__list-number">
+                                    <h6>Dimsum</h6>
+                                    <p>23.000Đ</p>
+                                </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            
             
             <div class="product__btn">
                 <a href="">
@@ -289,32 +353,32 @@
                         <div class="service__list-item">
                             <img srcset="./assets/images/service-icon1.png 2x">
                         </div>
-                        <h6>Thanh toán bằng thẻ</h6>
+                        <p>Thanh toán bằng thẻ</p>
                     </div>
                     <div class="swiper-slide service__list">
                         <div class="service__list-item">
                             <img srcset="./assets/images/service-icon-2.png 2x">
                         </div>
-                            <h6>Thanh toán
-                                hóa đơn</h6>
+                            <p>Thanh toán
+                                hóa đơn</p>
                     </div>
                     <div class="swiper-slide service__list">
                         <div class="service__list-item">
                             <img srcset="./assets/images/service-icon-3.png 2x">
                         </div>
-                            <h6>Thẻ game</h6>
+                            <p>Thẻ game</p>
                     </div>
                     <div class="swiper-slide service__list">
                         <div class="service__list-item">
                             <img srcset="./assets/images/service-icon-4.png 2x">
                         </div>
-                            <h6>Thẻ điện thoại</h6>
+                            <p>Thẻ điện thoại</p>
                     </div>
                     <div class="swiper-slide service__list">
                         <div class="service__list-item">
                             <img srcset="./assets/images/service-icon1.png 2x">
                         </div>
-                            <h6>Thẻ điện thoại</h6>
+                            <p>Thẻ điện thoại</p>
                     </div>
                     
                 </div>

@@ -36,25 +36,13 @@
 .flex {
   display: flex;
 }
-.input {
-  width: 100%;
-  height: 40px;
-  padding-left: 10px;
-  font-size: 12px;
-  line-height: 20px;
-  border: 0;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  background: #fff;
-}
 .input-pc {
   width: 100%;
   height: 40px;
   padding-left: 10px;
   font-size: 12px;
   line-height: 20px;
-  border: 0;
-  border: 1px solid #fff;
+  border: 1px solid #E5E5E5;
   border-radius: 20px;
   background: #fff;
 }
@@ -64,8 +52,7 @@
   padding-left: 10px;
   font-size: 12px;
   line-height: 20px;
-  border: 0;
-  border: 1px solid #fff;
+  border: 1px solid #EE2E24;
   border-radius: 20px;
   background: #fff;
 }
@@ -146,8 +133,79 @@
   bottom: 130px;
 }
 @media only screen and (min-width: 1024px) {
-  .header__menu-bars {
-    display: none !important;
+  .wrapper header {
+    display: none;
+  }
+  .wrapper .header__top {
+    display: none;
+  }
+  .wrapper .header__menu-bars {
+    display: none ;
+  }
+  .wrapper .header__menu-pc {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EE2E24;
+    height: 65px;
+  }
+  .wrapper .header__menu-pc a {
+    transform: translate(12px, 8.5px);
+  }
+  .wrapper .menu-main {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    transform: translateY(4px);
+    gap: 16px;
+    padding: 20px 20px 20px 20px;
+  }
+  .wrapper .menu-main a {
+    text-align: center;
+  }
+  .wrapper .menu-main a span {
+    display: block;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 500;
+  }
+  .wrapper .menu-main a:nth-child(1) span,
+  .wrapper .menu-main a:nth-child(4) span {
+    margin-top: 6px;
+  }
+  .wrapper .menu-main input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+    background: #fff;
+    width: 240px;
+  }
+  .wrapper .menu-main .language__vi {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #EE2E24;
+  }
+  .wrapper .menu-main .language__en {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #333333;
+  }
+  .wrapper .menu-main .line-language {
+    height: 15px;
+    width: 1px;
+    display: inline-block;
+    background: #9a9a9c;
   }
   .page .page__list li {
     width: 116px;
@@ -197,15 +255,16 @@
   .footer .footer__login .footer__login-pc ul li:nth-child(3) from input {
     width: 250px;
   }
-  .footer .footer__login .footer__login-pc ul li:nth-child(1) h6 {
+  .footer .footer__login .footer__login-pc ul li:nth-child(2) h6 {
     text-transform: uppercase;
     color: #EE2E24;
+    font-size: 18px;
   }
   .footer .footer__login .footer__login-pc ul span {
     height: 60px;
     width: 1px;
     margin: 0 10px;
     display: inline-block;
-    background: #9A9A9C;
+    background: #E5E5E5;
   }
 }
