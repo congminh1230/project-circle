@@ -6,9 +6,6 @@
     padding-bottom: 180px;
 }
 .footer__login{
-    // .flex;
-    // .justify-content(center);
-    // .align-items(center);
     text-align: center;
     .footer__login-pc {
         display: none;
@@ -33,6 +30,11 @@
         display: inline-block;
         padding:0;
     }
+    li:nth-child(2),li:nth-child(3),li:nth-child(4){
+        i {
+            .icon-primary;
+        }
+    }
 }
 .footer__login-social{
 
@@ -42,6 +44,8 @@
     .flex;
     .justify-content(space-around);
     .align-items(center);
+    .flex-wrap(wrap);
+    gap: 7px;
     input {
         padding: 12.5px 20px;
         border: 1.5px solid @color-gray;
@@ -74,7 +78,6 @@
     margin-bottom: 20px;
 }
 .footer__title {
-    padding: 0 30px;
     text-align: center;
     font-style: @font-style__emphasis;
     line-height: 25px;

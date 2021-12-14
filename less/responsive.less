@@ -1,7 +1,6 @@
 @import './variables.less';
 @import './mixin.less';
 @media only screen and (min-width:1024px){
-    
     .wrapper {
         header {
             display: none;
@@ -80,7 +79,18 @@
         }
     }
     .product {
+        padding:0 55px;
+        h3 {
+            font-size:@font-size-pc-h;
+            font-weight: @font-weight__semibold;
+        }
+        // .product__heading {
+        //     h2 {
+        //         font-size:@font-size-pc-h;
+        //     }
+        // }
         .product__slider {
+
             .swiper-wrapper {
                 .swiper-slide {
                     img {
@@ -156,6 +166,34 @@
             }
            
         }
+        .footer__top {
+            margin:0 100px;
+            border-bottom: 1px solid #9a9a9c;
+            h3 {
+                i {
+                    display: inline;
+                }
+            }
+            .footer__info {
+                .flex;
+                .justify-content(space-between);
+                .align-items(center);
+            }
+            
+        }
+        .footer_end {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .footer__license {
+            margin: 0;
+        }
     }
-
+    // 
+    h3 {
+        font-size:@font-size-pc-h;
+        font-weight: @font-weight__semibold;
+    }
 }
