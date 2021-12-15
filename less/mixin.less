@@ -87,9 +87,9 @@
 .line-mobile {
     .line(90%);
 }
-.btn(@bg,@color,@bg__hover, @color__hover) {
+.btn(@bg,@color,@bg__hover, @color__hover,@font-size) {
     background-color:@bg ;
-    font-size: 12px;
+    font-size: @font-size;
     padding: 10px 30px;
     color: @color;
     font-weight: @font-weight__semibold;
@@ -102,7 +102,10 @@
       }
 }
 .btn-primary{
-    .btn(@color-secondary,@primary-color,@color-btn,@color-secondary)
+    .btn(@color-secondary,@primary-color,@color-btn,@color-secondary,@font-size-primary)
+}
+.btn-primary-pc {
+    .btn(@color-secondary,@primary-color,@color-btn,@color-secondary,@font-size-pc)
 }
 .warning-circle(@bg,@border,@color) {
     .flex;
@@ -134,7 +137,7 @@
 }
 .line-bottom {
     .display(inline-block);
-        border-bottom: 2px solid @color-btn-line;
+        border-bottom: 3px solid @color-btn-line;
         padding-bottom:6px;
         text-transform: uppercase;
 }

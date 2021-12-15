@@ -1,7 +1,9 @@
 @import './variables.less';
 @import './mixin.less';
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:1025px){
     .wrapper {
+        max-width: 1440px;
+        margin: auto;
         header {
             display: none;
         }
@@ -29,7 +31,7 @@
             justify-content: space-between;
             height: 80px;
             transform: translateY(4px);
-            gap: 16px;
+            gap: 20px;
             padding: 20px 20px 20px 20px;
             a {
                 text-align: center;
@@ -68,6 +70,7 @@
     }
     
     .page {
+        margin-top: 40px;
         .page__list {
             li {
                 width: 116px;
@@ -79,7 +82,7 @@
         }
     }
     .product {
-        padding:0 55px;
+        // padding:0 55px;
         h3 {
             font-size:@font-size-pc-h;
             font-weight: @font-weight__semibold;
@@ -101,8 +104,20 @@
         }
         .product__btn {
            a {
-                font-size:@font-size-pc;
+            .btn-primary-pc 
            }
+        }
+        .product-hot {
+            display: none;
+        }
+        .product__title-pc {
+            display: none;
+        }
+        .product__btn-pc {
+            display: none;
+        }
+        .line-pc {
+            display: none;
         }
     }
     .event {
@@ -110,8 +125,17 @@
             width: 80%;
             margin: auto;
         }
+        .event__list {
+            margin-top: 40px;
+        }
+        .event__btn {
+            a {
+                .btn-primary-pc 
+            }
+        }
     }
     .service {
+        padding: 40px 243px;
         .service__slider  {
             width: 80%;
             margin: auto;
@@ -119,9 +143,25 @@
         .line {
             display:none;
         }
+        .service__btn {
+            a {
+                .btn-primary-pc 
+            }
+        }
+        .service__list {
+            .service__list-item  {
+                width: 80px;
+                height: 80px;
+            }
+            p {
+                font-size:@font-size-pc;
+            }
+        }
     }
     .footer {
+        margin-top: 112px !important;
         .footer__login {
+            width: 76%;
             ul:nth-child(1) {
                 display: none;
             }
@@ -136,7 +176,7 @@
                     .align-items(center);
                     li:first-child {
                         img {
-                            width: 130%;
+                            width: 100%;
                         }
                     }
                     li:nth-child(3) {
@@ -162,38 +202,64 @@
                         display: inline-block;
                         background:@coler-gray2;
                     }
+                    li:last-child {
+                        a {
+                            padding-right: 10px;
+                        }
+                    }
                 }
             }
            
         }
         .footer__top {
             margin:0 100px;
+            padding:0;
             border-bottom: 1px solid #9a9a9c;
             h3 {
                 i {
                     display: inline;
                 }
             }
+            .footer__title {
+                font-weight: @font-weight__bold;
+                i {
+                    font-weight: @font-weight__heavier;
+                }
+            }
             .footer__info {
                 .flex;
                 .justify-content(space-between);
                 .align-items(center);
+                .footer__info-top {
+                    p{
+                        font-size: @font-size-pc;
+                    }
+                }
             }
             
         }
         .footer_end {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             gap: 30px;
+            margin: 0 100px;
+            .footer__bottom {
+                padding:0;
+            }
         }
         .footer__license {
             margin: 0;
+            padding:0;
         }
     }
     // 
     h3 {
         font-size:@font-size-pc-h;
         font-weight: @font-weight__semibold;
+    }
+    .footer {
+        max-width: 1440px;
+        margin:auto;
     }
 }

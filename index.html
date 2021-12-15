@@ -105,14 +105,26 @@
             </div>
         </div>
         <div class="header__bottom">
-
         </div>
-        <section class="banner">
+        <section class="swiper banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide banner__box">
+                    <img srcset="./assets/images/Rectangle5.png 2x">
+                </div>
+                <div class="swiper-slide banner__box">
+                    <img srcset="./assets/images/Rectangle5.png 2x">
+                </div>
+                <div class="swiper-slide banner__box">
+                    <img srcset="./assets/images/Rectangle5.png 2x">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="banner">
             <img srcset="./assets/images/Rectangle5.png 2x">
             <span>
                 1/6
             </span>
-        </section>
+        </section> -->
         <section class="page">
             <ul class="page__list">
                 <li>
@@ -254,17 +266,17 @@
                 </div>
             </section>
            
-            <div class="product__btn">
+            <div class="product__btn product__btn-pc">
                 <a href="">
                     Xem thêm sản phẩm
                     <i class="fas fa-arrow-right"></i>
 
                 </a>
             </div>
-            <h3>
+            <h3 class="product__title-pc" >
                 Sản phẩm bán chạy
             </h3>
-            <div class="line"></div>
+            <div class="line line-pc"></div>
             <section class="product-hot">
                 <div class="swiper product__slider" >
                     <div class="swiper-wrapper">
@@ -350,42 +362,45 @@
                 Dịch vụ tiện ích
             </h3>
             <div class="line"></div>
-            <div class="swiper service__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide service__list">
-                        <div class="service__list-item">
-                            <img srcset="./assets/images/service-icon1.png 2x">
+            <div class="service__block">
+                <div class="swiper service__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide service__list">
+                            <div class="service__list-item">
+                                <img srcset="./assets/images/service-icon1.png 2x">
+                            </div>
+                            <p>Thanh toán bằng thẻ</p>
                         </div>
-                        <p>Thanh toán bằng thẻ</p>
-                    </div>
-                    <div class="swiper-slide service__list">
-                        <div class="service__list-item">
-                            <img srcset="./assets/images/service-icon-2.png 2x">
+                        <div class="swiper-slide service__list">
+                            <div class="service__list-item">
+                                <img srcset="./assets/images/service-icon-2.png 2x">
+                            </div>
+                                <p>Thanh toán
+                                    hóa đơn</p>
                         </div>
-                            <p>Thanh toán
-                                hóa đơn</p>
-                    </div>
-                    <div class="swiper-slide service__list">
-                        <div class="service__list-item">
-                            <img srcset="./assets/images/service-icon-3.png 2x">
+                        <div class="swiper-slide service__list">
+                            <div class="service__list-item">
+                                <img srcset="./assets/images/service-icon-3.png 2x">
+                            </div>
+                                <p>Thẻ game</p>
                         </div>
-                            <p>Thẻ game</p>
-                    </div>
-                    <div class="swiper-slide service__list">
-                        <div class="service__list-item">
-                            <img srcset="./assets/images/service-icon-4.png 2x">
+                        <div class="swiper-slide service__list">
+                            <div class="service__list-item">
+                                <img srcset="./assets/images/service-icon-4.png 2x">
+                            </div>
+                                <p>Thẻ điện thoại</p>
                         </div>
-                            <p>Thẻ điện thoại</p>
-                    </div>
-                    <div class="swiper-slide service__list">
-                        <div class="service__list-item">
-                            <img srcset="./assets/images/service-icon1.png 2x">
+                        <div class="swiper-slide service__list">
+                            <div class="service__list-item">
+                                <img srcset="./assets/images/service-icon1.png 2x">
+                            </div>
+                                <p>Thẻ điện thoại</p>
                         </div>
-                            <p>Thẻ điện thoại</p>
+                        
                     </div>
-                    
                 </div>
             </div>
+           
             
             <div class="service__btn">
                 <a href="">
@@ -399,16 +414,18 @@
                 Sự kiện & tin tức
             </h3>
             <div class="line"></div>
-            <div class="swiper event__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img srcset="./assets/images/news-1.png 2x">
-                    </div>
-                    <div class="swiper-slide">
-                        <img srcset="./assets/images/news-2.png 2x">
-                    </div>
-                    <div class="swiper-slide">
-                        <img srcset="./assets/images/news-1.png 2x">
+            <div class="event__list">
+                <div class="swiper event__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img srcset="./assets/images/news-1.png 2x">
+                        </div>
+                        <div class="swiper-slide">
+                            <img srcset="./assets/images/news-2.png 2x">
+                        </div>
+                        <div class="swiper-slide">
+                            <img srcset="./assets/images/news-1.png 2x">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -425,7 +442,7 @@
         <div class="footer__login">
             <ul class="footer__login-social">
                 <li>
-                    <img srcset="./assets/images/logo.png 2x">
+                    <img srcset="./assets/images/logo-bottom.png 2x">
                 </li>
                 <li>
                     <i class="fab fa-facebook-f" style="user-select: auto;"></i>

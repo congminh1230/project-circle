@@ -30,14 +30,16 @@ var swiper = new Swiper(".product__slider", {
     breakpoints: {
       0: {
         slidesPerView: 4.5,
-        spaceBetween: 20,
       },
       414: {
         slidesPerView: 4.5,
+      },
+      768: {
+        slidesPerView: 5.5,
         spaceBetween: 20,
       },
-      991: {
-        slidesPerView: 5,
+      1024: {
+        slidesPerView: 6,
         spaceBetween: 20,
       },
     },
@@ -60,6 +62,28 @@ var swiper = new Swiper(".product__slider", {
       },
       991: {
         slidesPerView: 3,
+      },
+    },
+  });
+  // sidebar
+  var swiper = new Swiper(".banner", {
+    spaceBetween: 20,
+  
+    loop: true,
+    grabCursor: true,
+    autoplay: {
+      delay: 5500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      414: {
+        slidesPerView: 1,
+      },
+      991: {
+        slidesPerView: 1,
       },
     },
   });
