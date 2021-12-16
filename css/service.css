@@ -24,7 +24,7 @@
 .circle-mobile {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -78,8 +78,11 @@
 .line-bottom {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line-bottom-logo {
   display: inline-block;
@@ -119,30 +122,28 @@
 .service h3 {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .service__list {
   margin-top: 15px;
 }
-.service-slide {
-  margin-top: 30px;
+.service__block {
+  margin-top: 24px;
   margin-bottom: 20px;
-}
-.service__list {
-  margin-bottom: 14px;
 }
 .service__list .service__list-item {
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   margin: auto;
   border-radius: 50%;
   background: #ffffff;
-  position: relative;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .service__list .service__list-item img {

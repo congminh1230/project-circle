@@ -24,7 +24,7 @@
 .circle-mobile {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -78,8 +78,11 @@
 .line-bottom {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line-bottom-logo {
   display: inline-block;
@@ -110,7 +113,7 @@
   background-color: #F99B2A;
   color: #fff;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   .wrapper {
     max-width: 1440px;
     margin: auto;
@@ -253,6 +256,9 @@
     background-color: #EE2E24;
     color: #fff;
   }
+  .service {
+    padding: 40px 243px;
+  }
   .service .service__slider {
     width: 80%;
     margin: auto;
@@ -274,11 +280,18 @@
     background-color: #EE2E24;
     color: #fff;
   }
+  .service .service__list .service__list-item {
+    width: 80px;
+    height: 80px;
+  }
+  .service .service__list p {
+    font-size: 14px;
+  }
   .footer {
     margin-top: 112px !important;
   }
   .footer .footer__login {
-    width: 67%;
+    width: 76%;
   }
   .footer .footer__login ul:nth-child(1) {
     display: none;
@@ -295,7 +308,7 @@
     align-items: center;
   }
   .footer .footer__login .footer__login-pc ul li:first-child img {
-    width: 130%;
+    width: 100%;
   }
   .footer .footer__login .footer__login-pc ul li:nth-child(3) from {
     margin: 0;
@@ -335,7 +348,7 @@
   }
   .footer .footer__top .footer__info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .footer .footer__top .footer__info .footer__info-top p {
@@ -343,15 +356,24 @@
   }
   .footer .footer_end {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
+    margin: 0 100px;
+  }
+  .footer .footer_end .footer__bottom {
+    padding: 0;
   }
   .footer .footer__license {
     margin: 0;
+    padding: 0;
   }
   h3 {
     font-size: 20px;
     font-weight: 600;
+  }
+  .footer {
+    max-width: 1440px;
+    margin: auto;
   }
 }

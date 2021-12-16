@@ -24,7 +24,7 @@
 .circle-mobile {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -78,8 +78,11 @@
 .line-bottom {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line-bottom-logo {
   display: inline-block;
@@ -384,17 +387,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 20px;
-  gap: 12px;
+  padding: 11px 20px;
+  gap: 11px;
   transform: translateY(-2px);
 }
 .header__user__shortcut {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 13px;
+}
+.header__cart img {
+  transform: translateX(-4px);
 }
 .header__from {
+  transform: translateY(-2px);
   width: 100%;
   display: flex;
   align-items: center;
@@ -408,6 +415,7 @@
 .header__from input {
   border: 0 !important;
   padding-left: 22px;
+  letter-spacing: 1px;
   width: 100%;
   height: 40px;
   padding-left: 20px;
@@ -427,7 +435,7 @@
 .header__cart .circle {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -586,13 +594,14 @@ h3 {
   font-weight: 600;
 }
 .page {
-  margin-top: 20px;
+  margin-top: 3px;
 }
 .page__list {
-  gap: 19px;
+  gap: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0 11px;
 }
 .page__list li {
   width: 79px;
@@ -611,14 +620,17 @@ h3 {
   font-weight: 600;
 }
 .product {
-  margin-top: 30px;
+  margin-top: 29px;
   text-align: center;
 }
 .product h3 {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line {
   height: 1px;
@@ -627,7 +639,7 @@ h3 {
   margin: auto ;
 }
 .product-new {
-  margin-top: 32px;
+  margin-top: 28px;
 }
 .product__list-number h6 {
   font-weight: 600;
@@ -719,8 +731,11 @@ h3 {
 .service h3 {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .service__list {
   margin-top: 15px;
@@ -770,8 +785,11 @@ h3 {
 .event h3 {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .event-slide {
   margin-top: 30px;
@@ -798,7 +816,7 @@ h3 {
   color: #fff;
 }
 .footer {
-  margin-top: 90px;
+  margin-top: 107px;
   background-color: #f4f4f4;
   padding-bottom: 180px;
 }
@@ -870,7 +888,7 @@ h3 {
   padding: 25px 20px;
   width: 90%;
   margin: auto;
-  transform: translateY(-62px);
+  transform: translateY(-80px);
   background: #fff;
   border-radius: 25px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
@@ -916,7 +934,7 @@ h3 {
   margin: 9px 0;
 }
 .footer__bottom li a {
-  font-size: 12px;
+  font-size: 10px;
 }
 .footer__bottom span {
   height: 15px;

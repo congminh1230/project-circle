@@ -24,7 +24,7 @@
 .circle-mobile {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -78,8 +78,11 @@
 .line-bottom {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line-bottom-logo {
   display: inline-block;
@@ -111,14 +114,17 @@
   color: #fff;
 }
 .product {
-  margin-top: 30px;
+  margin-top: 29px;
   text-align: center;
 }
 .product h3 {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line {
   height: 1px;

@@ -24,7 +24,7 @@
 .circle-mobile {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
@@ -78,8 +78,11 @@
 .line-bottom {
   display: inline-block;
   border-bottom: 3px solid #EE2E24;
-  padding-bottom: 6px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  margin-left: 6px;
 }
 .line-bottom-logo {
   display: inline-block;
@@ -120,17 +123,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 20px;
-  gap: 12px;
+  padding: 11px 20px;
+  gap: 11px;
   transform: translateY(-2px);
 }
 .header__user__shortcut {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 13px;
+}
+.header__cart img {
+  transform: translateX(-4px);
 }
 .header__from {
+  transform: translateY(-2px);
   width: 100%;
   display: flex;
   align-items: center;
@@ -144,6 +151,7 @@
 .header__from input {
   border: 0 !important;
   padding-left: 22px;
+  letter-spacing: 1px;
   width: 100%;
   height: 40px;
   padding-left: 20px;
@@ -163,7 +171,7 @@
 .header__cart .circle {
   position: absolute;
   top: 9px;
-  right: -7px;
+  right: -2px;
   background-color: #fff;
   border-radius: 26px;
   width: 14px;
